@@ -2763,14 +2763,14 @@ ul.breadcrumb li:last-child {
   --card-bg-color: #f5f5f5;
   --text-color: #555;
   --blockquote-color: #666;
-  --link-color: #144a74;
-  --link-hover-color: #2860d0;
+  --link-color: #113285;
+  --link-hover-color: #2ea9df;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #f5f5f5;
-  --theme-color: #042b57;
+  --theme-color: #005caf;
   --btn-default-bg: #fff;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
@@ -2781,6 +2781,7 @@ ul.breadcrumb li:last-child {
   --highlight-foreground: #444;
   --highlight-gutter-background: #dedede;
   --highlight-gutter-foreground: #555;
+  --highlight-content-color: #58b2dc;
   color-scheme: light;
 }
 img.custom-logo-image {
