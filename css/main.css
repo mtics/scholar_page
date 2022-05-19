@@ -2806,7 +2806,7 @@ figure {
   margin: 10px auto;
   min-height: 240px;
   min-width: 330px;
-  max-width: 540px;
+  max-width: 480px;
   width: 100%;
   background: #fff;
   color: #000;
@@ -2855,7 +2855,7 @@ figure figcaption #title-info,
 figure figcaption p {
   margin: 0;
   text-align: left;
-  padding: 3px 0;
+  padding: 9px 0;
   width: 100%;
 }
 figure figcaption #title-info {
