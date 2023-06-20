@@ -184,7 +184,7 @@ body {
   background: var(--body-bg-color);
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: Mulish, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Times, serif, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
   line-height: 2;
   min-height: 100%;
@@ -197,7 +197,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Chakra Petch, Mulish, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Times, serif, Times, serif, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -1205,7 +1205,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Orbitron, Mulish, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Times, serif, Times, serif, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1919,7 +1919,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Mulish, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Times, serif, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2106,7 +2106,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Mulish, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Times, serif, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2795,7 +2795,17 @@ a {
   -webkit-transition: color 0.35s;
   transition: color 0.35s;
 }
-figure {
+body {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+body p {
+  margin: 0 0 1rem;
+}
+.post-body {
+  font-size: 1rem;
+}
+figure#proflio-figure {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -2804,9 +2814,9 @@ figure {
   position: relative;
   overflow: hidden;
   margin: 10px auto;
-  min-height: 268px;
-  min-width: 330px;
-  max-width: 480px;
+  min-height: 10rem;
+  min-width: 22em;
+  max-width: 25em;
   width: 100%;
   background: #fff;
   color: #000;
@@ -2846,17 +2856,19 @@ figure > #proflio-figure-avatar {
 }
 figure figcaption {
   font-size: 0.9em;
-  padding: 20px 30px 20px 20px;
-  position: absolute;
-  right: 0;
-  width: 65%;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  position: relative;
+  left: 6rem;
 }
 figure figcaption #title-info,
 figure figcaption p {
   margin: 0;
   text-align: left;
-  padding: 0.6em 0;
+  padding: 0.5em 0;
   width: 100%;
+}
+figcaption#proflio-figcaption {
+  max-width: 20rem;
 }
 figure figcaption #title-info {
   display: flex;
@@ -2864,7 +2876,7 @@ figure figcaption #title-info {
   width: 100%;
 }
 figure figcaption #title-info #name {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
   width: 60%;
@@ -2875,7 +2887,7 @@ figure figcaption #title-info #name span {
 }
 figure figcaption #title-info #position {
   text-align: right;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   font-style: italic;
   width: auto;
   border-bottom: 1px solid rgba(0,0,0,0.2);
