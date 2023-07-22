@@ -2892,3 +2892,15 @@ figure figcaption #title-info #position {
   width: auto;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+::selection {
+  background: #113285;
+  color: #fff;
+}
+::-moz-selection {
+  background: #113285;
+  color: #fff;
+}
+::-webkit-selection {
+  background: #113285;
+  color: #fff;
+}
