@@ -2892,6 +2892,9 @@ figure figcaption #title-info #position {
   width: auto;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+div.main-inner.page.posts-expand li {
+  padding-bottom: 0.5rem;
+}
 ::selection {
   background: #113285;
   color: #fff;
